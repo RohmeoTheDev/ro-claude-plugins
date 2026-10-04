@@ -1,0 +1,168 @@
+{
+    "version":  "1.0.0",
+    "contentHash":  "1efeb09a13b9ed13178b6d71228ce9a7c45cf470fd582fd532e5ecbc3ddbe98d",
+    "generatedAt":  "2026-10-04T11:45:39+11:00",
+    "plugin":  "ro",
+    "skills":  [
+                   {
+                       "name":  "audit-skills",
+                       "source":  ".cursor/commands/audit-skills.md",
+                       "hash":  "b56dcd329a99ea41e96d024e19763878cf77521b8dcb4e064ff6371fefea2fe3"
+                   },
+                   {
+                       "name":  "boot",
+                       "source":  "template/.cursor/commands/boot.md",
+                       "hash":  "fe3f7965622d98119dc1804c6c05aed53c8bf1da6f8cff088cde8b1b195b8807"
+                   },
+                   {
+                       "name":  "discover-skills",
+                       "source":  ".cursor/commands/discover-skills.md",
+                       "hash":  "332e9f2602b48e75a6d4afa89cf15c4598f5d1139debf513e9c5f7cc2d32b281"
+                   },
+                   {
+                       "name":  "james-code-assess-debt",
+                       "source":  "template/.cursor/commands/james-code-assess-debt-v1.00.md",
+                       "hash":  "afd3f53023dff40eca1f724f348cd1c92ad03ccb1a0cb527f7db8678f0ab424f"
+                   },
+                   {
+                       "name":  "james-code-explain-code",
+                       "source":  "template/.cursor/commands/james-code-explain-code-v1.00.md",
+                       "hash":  "54df7e305f400789beb4d1deff048e12acd3597055160d536cdcb5bd25a5bef3"
+                   },
+                   {
+                       "name":  "james-code-implement",
+                       "source":  "template/.cursor/commands/james-code-implement-v1.00.md",
+                       "hash":  "dcef8aab63063152037d25adc73eeb621a0703fbdc759dd622a40aa5ba68958f"
+                   },
+                   {
+                       "name":  "james-code-migrate",
+                       "source":  "template/.cursor/commands/james-code-migrate-v1.00.md",
+                       "hash":  "390904be07f0d21021806564f071a079640f5d1d924924ccbe160670fe9e5c97"
+                   },
+                   {
+                       "name":  "james-code-refactor",
+                       "source":  "template/.cursor/commands/james-code-refactor-v1.00.md",
+                       "hash":  "e3c2df849e865279381153feba20e7c47ba9a5b3dfb21e8f5443e16d1c8b6709"
+                   },
+                   {
+                       "name":  "james-code-scaffold-api",
+                       "source":  "template/.cursor/commands/james-code-scaffold-api-v1.00.md",
+                       "hash":  "faa68ef6d3873b6247ff5d459a7c1c932c6d459679a901e04a6ed0fa061d24f2"
+                   },
+                   {
+                       "name":  "james-debugging-analyze-bug",
+                       "source":  "template/.cursor/commands/james-debugging-analyze-bug-v1.00.md",
+                       "hash":  "f850287f7862c8fa22d91824d3458b5395421508c3055a3d9e4ab147766040e2"
+                   },
+                   {
+                       "name":  "james-debugging-debug-issue",
+                       "source":  "template/.cursor/commands/james-debugging-debug-issue-v1.00.md",
+                       "hash":  "eab7abd57c69174e9e7adaeeb525bec05be0dd76dcce179a865dbe84ad9d5422"
+                   },
+                   {
+                       "name":  "james-debugging-trace-error",
+                       "source":  "template/.cursor/commands/james-debugging-trace-error-v1.00.md",
+                       "hash":  "80dedb9c43e11f64c218208a0f9dfc20fb2485464cb671ae941a366e6683b18f"
+                   },
+                   {
+                       "name":  "james-devops-check-deployment",
+                       "source":  "template/.cursor/commands/james-devops-check-deployment-v1.00.md",
+                       "hash":  "d7a1db0e724afc44ad3344d27a89ffee67c8d3fbf1e3eae577b150ab231ce9cf"
+                   },
+                   {
+                       "name":  "james-devops-optimize-docker",
+                       "source":  "template/.cursor/commands/james-devops-optimize-docker-v1.00.md",
+                       "hash":  "1afb439e51d21e235d443115bfa565d9da0046471a49bb554bccaef7174c7099"
+                   },
+                   {
+                       "name":  "james-devops-setup-monitoring",
+                       "source":  "template/.cursor/commands/james-devops-setup-monitoring-v1.00.md",
+                       "hash":  "17a6d854bb3bb403fdd66ff45301d6d4e56c277d997218ec8ff0e236c87928e8"
+                   },
+                   {
+                       "name":  "james-docs-create-issue",
+                       "source":  "template/.cursor/commands/james-docs-create-issue-v1.00.md",
+                       "hash":  "c5646d3cfb4641e6ecbf20afb7061bd02c78089a5cf48cdbd76adcf11a32c360"
+                   },
+                   {
+                       "name":  "james-docs-enhance-pr",
+                       "source":  "template/.cursor/commands/james-docs-enhance-pr-v1.00.md",
+                       "hash":  "c1702c9d76d7b1e77da9f86d745dba86d267d6d66437cdb0189f7e734b5ab3d5"
+                   },
+                   {
+                       "name":  "james-docs-generate-docs",
+                       "source":  "template/.cursor/commands/james-docs-generate-docs-v1.00.md",
+                       "hash":  "95d79fd6dedd31385d9dca6389f96c6b2636db4cdfc4643bcc9cfbafbaae4442"
+                   },
+                   {
+                       "name":  "james-security-audit-accessibility",
+                       "source":  "template/.cursor/commands/james-security-audit-accessibility-v1.00.md",
+                       "hash":  "9ad455a22a457a9c5397c66485ff524aa1c65680ad73c4ef33260079d1e3f2e8"
+                   },
+                   {
+                       "name":  "james-security-audit-dependencies",
+                       "source":  "template/.cursor/commands/james-security-audit-dependencies-v1.00.md",
+                       "hash":  "5c2d19fae3de08092545567fa32527f60333b2d1676dd79d928cd9d4ae0c19e1"
+                   },
+                   {
+                       "name":  "james-security-scan-security",
+                       "source":  "template/.cursor/commands/james-security-scan-security-v1.00.md",
+                       "hash":  "752df48a521626784578f2f777a800ff939f188616016b175d1298580e829b1d"
+                   },
+                   {
+                       "name":  "james-testing-generate-tests",
+                       "source":  "template/.cursor/commands/james-testing-generate-tests-v1.00.md",
+                       "hash":  "a0cafff148451ab4e56711173f3d1989b907c23638249c4ef5f5bfc67f3d8149"
+                   },
+                   {
+                       "name":  "james-testing-test-args",
+                       "source":  "template/.cursor/commands/james-testing-test-args-v1.00.md",
+                       "hash":  "c95beafa59dec1173e2c022554e3ba623e1959e0f4fc039611546b68fc7601ae"
+                   },
+                   {
+                       "name":  "james-testing-write-tests",
+                       "source":  "template/.cursor/commands/james-testing-write-tests-v1.00.md",
+                       "hash":  "75ca93785e9c1a73fc623280ba9e2f723fb52973c5c1fd40b034073af4cf6636"
+                   },
+                   {
+                       "name":  "new-project",
+                       "source":  ".cursor/commands/new-project.md",
+                       "hash":  "0f82345e1766910f3491c43eef8f8155a04b282c15451faa5dee7081e65bea40"
+                   },
+                   {
+                       "name":  "ro-agent-onboard",
+                       "source":  "template/.cursor/commands/ro-agent-onboard-v1.00.md",
+                       "hash":  "83b462cbb570a147db75de546fc3c747a304dc5b6da840f6c56f60a0e661a8bf"
+                   },
+                   {
+                       "name":  "ro-workflow-agent-handover",
+                       "source":  "template/.cursor/commands/ro-workflow-agent-handover-v1.00.md",
+                       "hash":  "4662edaad77ee0c62c56406a132272cf09d28659c18bb4e4871b2ce2d05cb9df"
+                   },
+                   {
+                       "name":  "ro-workflow-docs-update",
+                       "source":  "template/.cursor/commands/ro-workflow-docs-update-v1.00.md",
+                       "hash":  "d24c5ed8a20b5a231e652dc32b1fb15c9228221be679cd1f366bd642e2271111"
+                   },
+                   {
+                       "name":  "ro-workflow-git-sync",
+                       "source":  "template/.cursor/commands/ro-workflow-git-sync-v1.00.md",
+                       "hash":  "ebb22285ef29f8945c0a018be4bb0764166cdfc9409db450d0dd9b682204f04f"
+                   },
+                   {
+                       "name":  "ro-workflow-new-project-setup",
+                       "source":  "template/.cursor/commands/ro-workflow-new-project-setup-v1.00.md",
+                       "hash":  "efed6de52e73f52495e968da4775a323f8f4fc9acf2d9593acfc0913d9297a16"
+                   },
+                   {
+                       "name":  "ro-workflow-session-close",
+                       "source":  "template/.cursor/commands/ro-workflow-session-close-v1.00.md",
+                       "hash":  "162fb3b5efe650c1d620cbdb2c4a0f6373655d0394a9e2d6486b2f9f8c8e9a11"
+                   },
+                   {
+                       "name":  "sync-skills",
+                       "source":  ".cursor/commands/sync-skills.md",
+                       "hash":  "85c57c25a10c724e59f8eea25fbc2e0fe4f5035a7b1cb7108e07dffd26339e3f"
+                   }
+               ]
+}
