@@ -23,7 +23,7 @@ Claude Code and the Desktop *Code* tab read `~/.claude/commands` and
 `~/.claude/skills`. Desktop **Chat / Cowork / Projects** and claude.ai only load
 skills and plugins enabled on the account - they never read `~/.claude`.
 
-## Plugin `ro` - v1.0.0 - 32 skills
+## Plugin `ro` - v1.0.1 - 33 skills
 
 | Skill | Description | Source |
 |---|---|---|
@@ -58,4 +58,5 @@ skills and plugins enabled on the account - they never read `~/.claude`.
 | `/ro:ro-workflow-git-sync` | Auto git sync: pull when clean, commit/push when dirty (no force-push) | `template/.cursor/commands/ro-workflow-git-sync-v1.00.md` |
 | `/ro:ro-workflow-new-project-setup` | Orient agent in a new workspace: read docs, report understanding, wait | `template/.cursor/commands/ro-workflow-new-project-setup-v1.00.md` |
 | `/ro:ro-workflow-session-close` | End-of-session wrap: sync docs, rewrite STATE.md, stamp SESSION_LOG.md (archive-safety) | `template/.cursor/commands/ro-workflow-session-close-v1.00.md` |
+| `/ro:sync-claude-plugin` | Publish the Cursor slash-command pack as Claude account skills (Desktop Chat / Cowork / claude.ai) via the ro-claude-plugins marketplace | `.cursor/commands/sync-claude-plugin.md` |
 | `/ro:sync-skills` | Sync skills from catalog/SKILLS.md into the global Cursor and Claude Code pools | `.cursor/commands/sync-skills.md` |

@@ -12,7 +12,7 @@
                         "name":  "ro",
                         "source":  "./plugins/ro",
                         "description":  "Ro\u0027s Cursor slash commands (boot, onboard, ro-workflow-*, james-*, meta ops) as slash-only skills for Claude Desktop Chat, Cowork and claude.ai.",
-                        "version":  "1.0.0",
+                        "version":  "1.0.1",
                         "author":  {
                                        "name":  "Ro"
                                    }

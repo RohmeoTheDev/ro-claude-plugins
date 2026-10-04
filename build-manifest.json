@@ -1,7 +1,7 @@
 {
-    "version":  "1.0.0",
-    "contentHash":  "1efeb09a13b9ed13178b6d71228ce9a7c45cf470fd582fd532e5ecbc3ddbe98d",
-    "generatedAt":  "2026-10-04T11:45:39+11:00",
+    "version":  "1.0.1",
+    "contentHash":  "49f77e40d46295203401aa3b0d94db507d62ffbccba077257c8cf65f0c77166f",
+    "generatedAt":  "2026-10-04T11:47:18+11:00",
     "plugin":  "ro",
     "skills":  [
                    {
@@ -158,6 +158,11 @@
                        "name":  "ro-workflow-session-close",
                        "source":  "template/.cursor/commands/ro-workflow-session-close-v1.00.md",
                        "hash":  "162fb3b5efe650c1d620cbdb2c4a0f6373655d0394a9e2d6486b2f9f8c8e9a11"
+                   },
+                   {
+                       "name":  "sync-claude-plugin",
+                       "source":  ".cursor/commands/sync-claude-plugin.md",
+                       "hash":  "354649f67c21c7dbb5b80606c370b2c6a89f8c5e3401b5f535fa312e4c1f4cd1"
                    },
                    {
                        "name":  "sync-skills",
