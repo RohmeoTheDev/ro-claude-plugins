@@ -10,12 +10,38 @@
     "plugins":  [
                     {
                         "name":  "ro",
+                        "displayName":  "Ro Slash Commands",
                         "source":  "./plugins/ro",
                         "description":  "Ro\u0027s Cursor slash commands (boot, onboard, ro-workflow-*, james-*, meta ops) as slash-only skills for Claude Desktop Chat, Cowork and claude.ai.",
-                        "version":  "1.0.1",
+                        "version":  "1.00",
                         "author":  {
                                        "name":  "Ro"
-                                   }
+                                   },
+                        "category":  "Engineering",
+                        "keywords":  [
+                                         "cursor",
+                                         "slash-commands",
+                                         "workflow",
+                                         "ro-ai-base",
+                                         "boot",
+                                         "onboard",
+                                         "debugging",
+                                         "testing",
+                                         "devops",
+                                         "docs"
+                                     ],
+                        "tags":  [
+                                     "cursor",
+                                     "slash-commands",
+                                     "workflow",
+                                     "ro-ai-base",
+                                     "boot",
+                                     "onboard",
+                                     "debugging",
+                                     "testing",
+                                     "devops",
+                                     "docs"
+                                 ]
                     }
                 ]
 }

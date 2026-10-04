@@ -9,7 +9,7 @@ built by `scripts/build-claude-plugin.ps1`.
 
 1. Claude Desktop -> **Customize** -> **Plugins** -> **Add marketplace**
 2. Enter `https://github.com/RohmeoTheDev/ro-claude-plugins` (full HTTPS URL, not SSH)
-3. Install **ro**. Skills are slash-only: type `/` in Chat or Cowork.
+3. Install **Ro Slash Commands** (id `ro`). Skills are slash-only: type `/ro:` in Chat or Cowork.
 
 ## Update
 
@@ -23,7 +23,7 @@ Claude Code and the Desktop *Code* tab read `~/.claude/commands` and
 `~/.claude/skills`. Desktop **Chat / Cowork / Projects** and claude.ai only load
 skills and plugins enabled on the account - they never read `~/.claude`.
 
-## Plugin `ro` - v1.0.1 - 33 skills
+## Ro Slash Commands (`ro`) - v1.00 - 33 skills
 
 | Skill | Description | Source |
 |---|---|---|
