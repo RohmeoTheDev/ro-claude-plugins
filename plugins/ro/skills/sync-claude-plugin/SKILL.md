@@ -33,8 +33,13 @@ Resolve `<META_ROOT>` as this workspace root.
 What it does: reads `template/.cursor/commands/*.md` + meta ops, writes one
 `skills/<name>/SKILL.md` per command into
 `D:\Ro App Builds (2026)\- Ro Claude Plugins -\plugins\ro\`, bumps the plugin
-`version` **only when generated content changed**, commits, pushes to
-`github.com/RohmeoTheDev/ro-claude-plugins` (private).
+`version` **only when generated content or catalog metadata changed**, commits,
+pushes to `github.com/RohmeoTheDev/ro-claude-plugins` (public — Desktop's
+marketplace sync is server-side and cannot read a private repo on a personal plan).
+
+Version scheme is the Ro artifact scheme, `X.YY` two decimals: auto bump is
+`+.01`; for a major (`+.10`) or rework (`N.00`) pass `-SetVersion 1.10`.
+Claude only checks that the string changed, so semver is not needed.
 
 2. Report: version, added / modified / removed skill names, pushed or unchanged.
 

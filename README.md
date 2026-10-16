@@ -23,7 +23,7 @@ Claude Code and the Desktop *Code* tab read `~/.claude/commands` and
 `~/.claude/skills`. Desktop **Chat / Cowork / Projects** and claude.ai only load
 skills and plugins enabled on the account - they never read `~/.claude`.
 
-## Ro Slash Commands (`ro`) - v1.00 - 33 skills
+## Ro Slash Commands (`ro`) - v1.01 - 31 skills
 
 | Skill | Description | Source |
 |---|---|---|
@@ -52,11 +52,9 @@ skills and plugins enabled on the account - they never read `~/.claude`.
 | `/ro:james-testing-test-args` | Echo `$ARGUMENTS` — dev utility to verify argument passing | `template/.cursor/commands/james-testing-test-args-v1.00.md` |
 | `/ro:james-testing-write-tests` | Write comprehensive tests via subagent (AAA pattern, multi-category) | `template/.cursor/commands/james-testing-write-tests-v1.00.md` |
 | `/ro:new-project` | Create a new project from the lean Ro AI Base template (Flow A launcher) | `.cursor/commands/new-project.md` |
-| `/ro:ro-agent-onboard` | Orient a fresh agent session in this workspace before it starts work | `template/.cursor/commands/ro-agent-onboard-v1.00.md` |
-| `/ro:ro-workflow-agent-handover` | Sync docs, capture session state, produce paste-ready handover prompt for next session | `template/.cursor/commands/ro-workflow-agent-handover-v1.00.md` |
-| `/ro:ro-workflow-docs-update` | Refresh all internal docs to match current code state; sync agent files | `template/.cursor/commands/ro-workflow-docs-update-v1.00.md` |
-| `/ro:ro-workflow-git-sync` | Auto git sync: pull when clean, commit/push when dirty (no force-push) | `template/.cursor/commands/ro-workflow-git-sync-v1.00.md` |
-| `/ro:ro-workflow-new-project-setup` | Orient agent in a new workspace: read docs, report understanding, wait | `template/.cursor/commands/ro-workflow-new-project-setup-v1.00.md` |
-| `/ro:ro-workflow-session-close` | End-of-session wrap: sync docs, rewrite STATE.md, stamp SESSION_LOG.md (archive-safety) | `template/.cursor/commands/ro-workflow-session-close-v1.00.md` |
+| `/ro:ro-1-1-onboard` | Start of the session. Read first. Do not start work until the summary is confirmed. | `template/.cursor/commands/ro-1.1-onboard.md` |
+| `/ro:ro-2-1-learnings-and-docs` | Two jobs, no commit. Store what this session learned, then sync the docs that session made stale. Run any time, including mid-session. It does not commit, push, or close the chat. /ro-4.0-close runs... | `template/.cursor/commands/ro-2.1-learnings-and-docs.md` |
+| `/ro:ro-3-1-handover` | Mid-task baton pass. Use this before /ro-4.0-close when the work is not at a clean stop and the next agent needs context that should not go into the docs. This runs the close (learnings, log... | `template/.cursor/commands/ro-3.1-handover.md` |
+| `/ro:ro-4-0-close` | Normal end of the chat. This is learnings, the session log, and the git sync in one command. There is no separate git-sync command. After safe to close this window, the window can close. The next... | `template/.cursor/commands/ro-4.0-close.md` |
 | `/ro:sync-claude-plugin` | Publish the Cursor slash-command pack as Claude account skills (Desktop Chat / Cowork / claude.ai) via the ro-claude-plugins marketplace | `.cursor/commands/sync-claude-plugin.md` |
 | `/ro:sync-skills` | Sync skills from catalog/SKILLS.md into the global Cursor and Claude Code pools | `.cursor/commands/sync-skills.md` |

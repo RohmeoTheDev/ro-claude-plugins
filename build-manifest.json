@@ -1,7 +1,7 @@
 {
-    "version":  "1.00",
-    "contentHash":  "8618844d7bf42861a7e94c3b72b00f0a04f376ca48c501ac16571f5f36f0eb77",
-    "generatedAt":  "2026-10-04T12:02:56+11:00",
+    "version":  "1.01",
+    "contentHash":  "ed7882db351ccc3dfa49a51045743503919129f9582a158dbdb0eb2a88c40b28",
+    "generatedAt":  "2026-10-17T09:15:57+11:00",
     "plugin":  "ro",
     "skills":  [
                    {
@@ -130,39 +130,29 @@
                        "hash":  "0f82345e1766910f3491c43eef8f8155a04b282c15451faa5dee7081e65bea40"
                    },
                    {
-                       "name":  "ro-agent-onboard",
-                       "source":  "template/.cursor/commands/ro-agent-onboard-v1.00.md",
-                       "hash":  "83b462cbb570a147db75de546fc3c747a304dc5b6da840f6c56f60a0e661a8bf"
+                       "name":  "ro-1-1-onboard",
+                       "source":  "template/.cursor/commands/ro-1.1-onboard.md",
+                       "hash":  "25a0afcbd34d4f655061c411365ffcb4faa205e9486fe5af067d8cb62deee935"
                    },
                    {
-                       "name":  "ro-workflow-agent-handover",
-                       "source":  "template/.cursor/commands/ro-workflow-agent-handover-v1.00.md",
-                       "hash":  "4662edaad77ee0c62c56406a132272cf09d28659c18bb4e4871b2ce2d05cb9df"
+                       "name":  "ro-2-1-learnings-and-docs",
+                       "source":  "template/.cursor/commands/ro-2.1-learnings-and-docs.md",
+                       "hash":  "b30cce0f5d7c93bd5048c1e7635dc6261d0051c8d052ba1d8fa57891714a6fe2"
                    },
                    {
-                       "name":  "ro-workflow-docs-update",
-                       "source":  "template/.cursor/commands/ro-workflow-docs-update-v1.00.md",
-                       "hash":  "d24c5ed8a20b5a231e652dc32b1fb15c9228221be679cd1f366bd642e2271111"
+                       "name":  "ro-3-1-handover",
+                       "source":  "template/.cursor/commands/ro-3.1-handover.md",
+                       "hash":  "28c378f602293436879262c2b434edff6ad66b7af614a46c9f36c14d7b0ebfa6"
                    },
                    {
-                       "name":  "ro-workflow-git-sync",
-                       "source":  "template/.cursor/commands/ro-workflow-git-sync-v1.00.md",
-                       "hash":  "ebb22285ef29f8945c0a018be4bb0764166cdfc9409db450d0dd9b682204f04f"
-                   },
-                   {
-                       "name":  "ro-workflow-new-project-setup",
-                       "source":  "template/.cursor/commands/ro-workflow-new-project-setup-v1.00.md",
-                       "hash":  "efed6de52e73f52495e968da4775a323f8f4fc9acf2d9593acfc0913d9297a16"
-                   },
-                   {
-                       "name":  "ro-workflow-session-close",
-                       "source":  "template/.cursor/commands/ro-workflow-session-close-v1.00.md",
-                       "hash":  "162fb3b5efe650c1d620cbdb2c4a0f6373655d0394a9e2d6486b2f9f8c8e9a11"
+                       "name":  "ro-4-0-close",
+                       "source":  "template/.cursor/commands/ro-4.0-close.md",
+                       "hash":  "29afd874b444b7a7e5366aef30a0571da0b16a13e91b20b5a7be8b7a68fffc89"
                    },
                    {
                        "name":  "sync-claude-plugin",
                        "source":  ".cursor/commands/sync-claude-plugin.md",
-                       "hash":  "354649f67c21c7dbb5b80606c370b2c6a89f8c5e3401b5f535fa312e4c1f4cd1"
+                       "hash":  "a1642d2149d61ecd3902635565a22f26a5b100cb3119040971b078d49934928e"
                    },
                    {
                        "name":  "sync-skills",
