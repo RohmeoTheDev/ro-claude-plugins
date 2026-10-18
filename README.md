@@ -23,7 +23,7 @@ Claude Code and the Desktop *Code* tab read `~/.claude/commands` and
 `~/.claude/skills`. Desktop **Chat / Cowork / Projects** and claude.ai only load
 skills and plugins enabled on the account - they never read `~/.claude`.
 
-## Ro Slash Commands (`ro`) - v1.03 - 33 skills
+## Ro Slash Commands (`ro`) - v1.04 - 34 skills
 
 | Skill | Description | Source |
 |---|---|---|
@@ -58,5 +58,6 @@ skills and plugins enabled on the account - they never read `~/.claude`.
 | `/ro:ro-3-1-handover` | Mid-task baton pass. Use this before /ro-4.0-close when the work is not at a clean stop and the next agent needs context that should not go into the docs. This runs the close (learnings, log... | `template/.cursor/commands/ro-3.1-handover.md` |
 | `/ro:ro-4-0-close` | Normal end of the chat. This is learnings, the session log, and the git sync in one command. There is no separate git-sync command. After safe to close this window, the window can close. The next... | `template/.cursor/commands/ro-4.0-close.md` |
 | `/ro:ro-chat-log` | Save this chat into project-reference/intake as a markdown log, a meta file, and a chat index | `template/.cursor/commands/ro-chat-log.md` |
+| `/ro:ro-voice-convo-store` | Voice convo store. Files a Raise & Scale voice note as the next numbered talk, writes the decision if it locked, then pushes to GitHub. | `template/.cursor/commands/ro-voice-convo-store.md` |
 | `/ro:sync-claude-plugin` | Publish the Cursor slash-command pack as Claude account skills (Desktop Chat / Cowork / claude.ai) via the ro-claude-plugins marketplace | `.cursor/commands/sync-claude-plugin.md` |
 | `/ro:sync-skills` | Sync skills from catalog/SKILLS.md into the global Cursor and Claude Code pools | `.cursor/commands/sync-skills.md` |

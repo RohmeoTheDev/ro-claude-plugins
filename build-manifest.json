@@ -1,7 +1,7 @@
 {
-    "version":  "1.03",
-    "contentHash":  "cda983c7a173b81e03a6712e8e6c8f84744418f026184f292e1990deb8090f84",
-    "generatedAt":  "2026-10-18T13:05:08+11:00",
+    "version":  "1.04",
+    "contentHash":  "5b9cc517b81c690ffda5d3bfe6451c06fc00b014adf89e4f813e05c82a6c8851",
+    "generatedAt":  "2026-10-18T13:10:45+11:00",
     "plugin":  "ro",
     "skills":  [
                    {
@@ -158,6 +158,11 @@
                        "name":  "ro-chat-log",
                        "source":  "template/.cursor/commands/ro-chat-log.md",
                        "hash":  "b403512a218c234e1f76f8b83b210a6c193ffbe21907307d35b62d3b976699f5"
+                   },
+                   {
+                       "name":  "ro-voice-convo-store",
+                       "source":  "template/.cursor/commands/ro-voice-convo-store.md",
+                       "hash":  "62c7cae7cd1ad464c9c5eb6a0761eba0a05c508e6118d444c4418e0ed3683aa3"
                    },
                    {
                        "name":  "sync-claude-plugin",
