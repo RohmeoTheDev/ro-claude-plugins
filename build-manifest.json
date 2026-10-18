@@ -1,7 +1,7 @@
 {
-    "version":  "1.02",
-    "contentHash":  "1f859b87add00372ad22dbf683bfd0b7fd56d7d2a94cbf80d3277161ae545a5f",
-    "generatedAt":  "2026-10-18T12:10:10+11:00",
+    "version":  "1.03",
+    "contentHash":  "cda983c7a173b81e03a6712e8e6c8f84744418f026184f292e1990deb8090f84",
+    "generatedAt":  "2026-10-18T13:05:08+11:00",
     "plugin":  "ro",
     "skills":  [
                    {
@@ -13,6 +13,11 @@
                        "name":  "boot",
                        "source":  "template/.cursor/commands/boot.md",
                        "hash":  "fe3f7965622d98119dc1804c6c05aed53c8bf1da6f8cff088cde8b1b195b8807"
+                   },
+                   {
+                       "name":  "close-session",
+                       "source":  "template/.cursor/commands/close-session.md",
+                       "hash":  "1db32a79f187493dc66959fef8a67295fbf46549a7731b6c21e77288bc28366b"
                    },
                    {
                        "name":  "discover-skills",

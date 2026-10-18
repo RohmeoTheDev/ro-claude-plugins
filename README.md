@@ -23,12 +23,13 @@ Claude Code and the Desktop *Code* tab read `~/.claude/commands` and
 `~/.claude/skills`. Desktop **Chat / Cowork / Projects** and claude.ai only load
 skills and plugins enabled on the account - they never read `~/.claude`.
 
-## Ro Slash Commands (`ro`) - v1.02 - 32 skills
+## Ro Slash Commands (`ro`) - v1.03 - 33 skills
 
 | Skill | Description | Source |
 |---|---|---|
 | `/ro:audit-skills` | Sweep the global skills pool for staleness, duplication, and unsafe code | `.cursor/commands/audit-skills.md` |
 | `/ro:boot` | Set up this new project — interview you, then write AGENTS.md and the workspace files | `template/.cursor/commands/boot.md` |
+| `/ro:close-session` | Close the chat, push to GitHub, then print the Claude Desktop Sync click so voice can see the files. | `template/.cursor/commands/close-session.md` |
 | `/ro:discover-skills` | Sweep trending agent skills across discovery sites; never install | `.cursor/commands/discover-skills.md` |
 | `/ro:james-code-assess-debt` | Scan codebase for technical debt; prioritize remediation with ROI roadmap | `template/.cursor/commands/james-code-assess-debt-v1.00.md` |
 | `/ro:james-code-explain-code` | Explain complex code with narratives, diagrams, step-by-step breakdowns | `template/.cursor/commands/james-code-explain-code-v1.00.md` |
