@@ -37,9 +37,9 @@ What it does: reads `template/.cursor/commands/*.md` + meta ops, writes one
 pushes to `github.com/RohmeoTheDev/ro-claude-plugins` (public — Desktop's
 marketplace sync is server-side and cannot read a private repo on a personal plan).
 
-Version scheme is the Ro artifact scheme, `X.YY` two decimals: auto bump is
-`+.01`; for a major (`+.10`) or rework (`N.00`) pass `-SetVersion 1.10`.
-Claude only checks that the string changed, so semver is not needed.
+Plugin version is semver. Auto bump is the patch (`1.2.0` -> `1.2.1`).
+`1.00` through `1.05` did not replace Desktop's `1.0.1` (2026-10-04).
+Do not publish an `X.YY` plugin version again. `-SetVersion 1.3.0` for an explicit bump.
 
 2. Report: version, added / modified / removed skill names, pushed or unchanged.
 

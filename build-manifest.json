@@ -1,7 +1,7 @@
 {
-    "version":  "1.2.0",
-    "contentHash":  "cd13990f1b389e2d3ad8d089314300e488588f62eac4bd2399947cb1f27202b6",
-    "generatedAt":  "2026-10-18T13:13:42+11:00",
+    "version":  "1.2.1",
+    "contentHash":  "335d978596feb83dd53c89700f25608c52ba8208c3a10d24b09a1c951df6343b",
+    "generatedAt":  "2026-10-18T13:15:26+11:00",
     "plugin":  "ro",
     "skills":  [
                    {
@@ -167,7 +167,7 @@
                    {
                        "name":  "sync-claude-plugin",
                        "source":  ".cursor/commands/sync-claude-plugin.md",
-                       "hash":  "a1642d2149d61ecd3902635565a22f26a5b100cb3119040971b078d49934928e"
+                       "hash":  "dba4d0fe4a293c46f190b5cc4f2f5bcdd4f760637ac1edeaef4cee6f7f8de325"
                    },
                    {
                        "name":  "sync-skills",
