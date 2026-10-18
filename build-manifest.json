@@ -1,7 +1,7 @@
 {
-    "version":  "1.01",
-    "contentHash":  "ed7882db351ccc3dfa49a51045743503919129f9582a158dbdb0eb2a88c40b28",
-    "generatedAt":  "2026-10-17T09:15:57+11:00",
+    "version":  "1.02",
+    "contentHash":  "1f859b87add00372ad22dbf683bfd0b7fd56d7d2a94cbf80d3277161ae545a5f",
+    "generatedAt":  "2026-10-18T12:10:10+11:00",
     "plugin":  "ro",
     "skills":  [
                    {
@@ -148,6 +148,11 @@
                        "name":  "ro-4-0-close",
                        "source":  "template/.cursor/commands/ro-4.0-close.md",
                        "hash":  "29afd874b444b7a7e5366aef30a0571da0b16a13e91b20b5a7be8b7a68fffc89"
+                   },
+                   {
+                       "name":  "ro-chat-log",
+                       "source":  "template/.cursor/commands/ro-chat-log.md",
+                       "hash":  "b403512a218c234e1f76f8b83b210a6c193ffbe21907307d35b62d3b976699f5"
                    },
                    {
                        "name":  "sync-claude-plugin",
