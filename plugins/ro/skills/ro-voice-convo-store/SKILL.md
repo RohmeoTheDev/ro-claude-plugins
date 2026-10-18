@@ -8,7 +8,7 @@ disable-model-invocation: true
 
 # Voice convo store
 
-Search name: `ro-voice-convo-store`. In Claude Desktop type `/ro:ro-voice-convo-store`. In Cursor type `/ro-voice-convo-store`.
+Type `/ro-voice-convo-store`.
 
 This files one Raise & Scale voice talk and pushes it. It is not the generic session close.
 

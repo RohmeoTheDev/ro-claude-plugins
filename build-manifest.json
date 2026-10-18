@@ -1,7 +1,7 @@
 {
-    "version":  "1.04",
-    "contentHash":  "5b9cc517b81c690ffda5d3bfe6451c06fc00b014adf89e4f813e05c82a6c8851",
-    "generatedAt":  "2026-10-18T13:10:45+11:00",
+    "version":  "1.05",
+    "contentHash":  "cd13990f1b389e2d3ad8d089314300e488588f62eac4bd2399947cb1f27202b6",
+    "generatedAt":  "2026-10-18T13:11:55+11:00",
     "plugin":  "ro",
     "skills":  [
                    {
@@ -162,7 +162,7 @@
                    {
                        "name":  "ro-voice-convo-store",
                        "source":  "template/.cursor/commands/ro-voice-convo-store.md",
-                       "hash":  "62c7cae7cd1ad464c9c5eb6a0761eba0a05c508e6118d444c4418e0ed3683aa3"
+                       "hash":  "7e4641f5398514525cfe8b93af8dad5e8ccf810579065e174e1eb676b4517ba4"
                    },
                    {
                        "name":  "sync-claude-plugin",

@@ -23,7 +23,7 @@ Claude Code and the Desktop *Code* tab read `~/.claude/commands` and
 `~/.claude/skills`. Desktop **Chat / Cowork / Projects** and claude.ai only load
 skills and plugins enabled on the account - they never read `~/.claude`.
 
-## Ro Slash Commands (`ro`) - v1.04 - 34 skills
+## Ro Slash Commands (`ro`) - v1.05 - 34 skills
 
 | Skill | Description | Source |
 |---|---|---|
